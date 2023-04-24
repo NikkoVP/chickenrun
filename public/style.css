@@ -1,0 +1,134 @@
+#gameContainer {
+  text-align: center;
+}
+
+#gameBoard {
+  border: 3px solid;
+
+}
+
+#gameBody {
+  background-image: url('farmbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#scoreText {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10vh;
+  margin-top: 1vh;
+
+  color: red;
+}
+
+#highscore {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  color: red;
+}
+
+.buttons {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  width: 270px;
+  height: 50px;
+  margin: 1vh;
+  border: 4px solid;
+  border-radius: 15px;
+  cursor: pointer;
+  border-color: red;
+  color: red;
+}
+
+/* How to play*/
+#instruction {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  margin-left: 50vh;
+  padding: 20px;
+  width: 50%;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+  border: 20px solid;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.h3_instruction {
+  font-size: 20px;
+  text-align: left;
+}
+
+.instructionh1 {
+  font-size: 35px;
+}
+
+.p_instruction {
+  text-align: justify;
+  line-height: 20px;
+}
+
+.h2p {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  width: 50vh;
+  height: 10vh;
+  border: 4px solid;
+  border-radius: 15px;
+  border-color: red;
+  color: red;
+  cursor: pointer;
+
+}
+
+/* INDEX CSS */
+#indexBody {
+  background-image: url('farmbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+#indexContainer {
+  text-align: center;
+
+}
+
+#banner {
+  margin: 8vh;
+  margin-left: 40vh;
+  width: 60%;
+  font-size: 60px;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+  border: 20px solid;
+  border-radius: 15px;
+}
+
+#banner h1 {
+  font-size: 15vh;
+}
+
+
+.homepage {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  width: 50vh;
+  height: 10vh;
+  border: 4px solid;
+  border-radius: 15px;
+  border-color: red;
+  color: red;
+  cursor: pointer;
+  margin: 3vh;
+}

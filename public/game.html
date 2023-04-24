@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Chicken Escape Game</title>
+</head>
+
+<body id="gameBody">
+  <div id="gameContainer">
+    <canvas id="canvas" width="700" height="400"></canvas>
+    <div id="scoreText">0</div>
+    <div>
+      <button class="buttons" onclick="window.location.href = 'index.html';"> Home</button>
+      <button id="startBtn" class="buttons">Start A New Game</button>
+      <!-- <button id="exitBtn" class="buttons" onclick="self.close()">Exit</button> -->
+    </div>
+    <div id="highscore">Highscore: 0</div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
