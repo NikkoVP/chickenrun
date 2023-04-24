@@ -9,8 +9,8 @@ const startBtn = document.getElementById("startBtn");
 // const exitBtn2 = document.getElementById("exitHomepage")
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
-const boardBackground = "forestgreen";
-const paddle1Color = "rgb(102, 51, 0)";
+const boardBackground = "forestgreen"; 
+const paddle1Color = "rgb(102, 51, 0)"; 
 const paddle2Color = "rgb(102, 51, 0)";
 const paddleBorder = "black";
 // const ballColor = "yellow"; for testing the location of the ball/chicken
@@ -44,6 +44,7 @@ let paddle2 = {
     x: gameWidth - 25,
     y: 0
 }
+
 
 //EventLisener
 
@@ -92,6 +93,9 @@ function drawPaddles() {
     ctx.fillStyle = paddle2Color;
     ctx.fillRect(paddle2.x, paddle2.y, paddle2.width, paddle2.height);
     ctx.strokeRect(paddle2.x, paddle2.y, paddle2.width, paddle2.height);
+
+
+
 
 };
 
